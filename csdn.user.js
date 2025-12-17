@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         手机版CSDN净化
+// @namespace    http://tampermonkey.net/
+// @version      0.4
+// @description  自动点击CSDN博客文章详情页的“继续”按钮，移除不需要的一些元素
+// @author       Snape-max
+// @match        https://*.csdn.net/*
+// @grant        none
+// @license MIT
+// ==/UserScript==
+
 //添加定时
 var func = setInterval(()=>{
  //确定页面加载完毕
